@@ -53,12 +53,13 @@ header input{
 
 }
 
-.container{
+.container-fluid{
 
     background-color: rgb(70, 133, 185);
     box-sizing: border-box;
     border-radius: 2rem;
     flex-direction: row;
+    max-width: 87%;
 
 
 
@@ -70,7 +71,14 @@ header input{
     padding: .5rem;
     text-align: center;
     
+    
         
 }
 
+#cardStyle img{
+
+        width: 15rem;
+        height: 12rem;
+
+}
 
